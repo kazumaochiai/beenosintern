@@ -5,14 +5,17 @@
 <title>無題ドキュメント</title>
 </head>
 <script>
-function greeting(name) {
-	alert("hello, " + name);
+
+function makePictureUrl(farm, server, id, secret) {
+	alert("http://farm" + farm +".staticflickr.com/" + server +"/" + id +"_" + secret +".jpg")
 }
 </script>
 <body>
+
 <script>
-greeting("kazuma");
+makePictureUrl("2", "1716", "24870240842", "5bb5565f32");
 </script>
+
 <img src="http://farm2.staticflickr.com/1716/24870240842_5bb5565f32.jpg">
 </body>
 </html>
